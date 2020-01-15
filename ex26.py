@@ -4,7 +4,7 @@ print("2. floor 2")
 print("3. floor 3")
 print("Note, only floor one has anything in it right now. The others will come in the dlc")
 
-floor = input("> ")
+floor = input("-~-~-~> ")
 steak = 0
 if floor == "1":
     print("You see a giant cake eating a steak")
@@ -13,7 +13,7 @@ if floor == "1":
     print("2. Make loud noises, while hearing voices")
     print("Or choose your own adventure and don't be a corporate zombie")
 
-    cake = input("> ")
+    cake = input("-~-~-~> ")
 
     if cake = "2":
         print("The cake flops on you and you die from insanity. Good Job!")
@@ -24,7 +24,7 @@ if floor == "1":
         print("1. Eat the steak")
         print("2. Keep going")
 
-        eat = input("> ")
+        eat = input("-~-~-~> ")
 
         steak = 1
 
@@ -39,7 +39,7 @@ if floor == "1":
             print("1. Go into the cave")
             print("2. Continue on")
 
-            cave = input("> ")
+            cave = input("-~-~-~> ")
 
             if cave = "1":
                 print("You poke yourself on one of the 'teeth' and begin bleeding out.")
@@ -49,7 +49,7 @@ if floor == "1":
                 print("1. Scream in anger")
                 print("2. Look for another exit")
 
-                circles = "> "
+                circles = "-~-~-~> "
 
                 if circles = "1":
                     print("""Your scream awakens an army of human vampire bat things
@@ -68,7 +68,7 @@ if floor == "1":
         print("1. Look around for something to eat")
         print("2. Keep going")
 
-        food = input("> ")
+        food = input("-~-~-~-~> ")
 
         if food = "1":
             print("You find a dead body.")
@@ -76,14 +76,14 @@ if floor == "1":
             print("1. Eat the flesh of the forgone")
             print("2. Look for something else")
 
-            eat = input("> ")
+            eat = input("-~-~-~> ")
 
             if eat = "1":
                 print("You get E-coli from the body and die slowly. You probally should have cooked it first.")
             elif eat = "2":
                 print("You find a stove, an electric one that works.")
 
-                stove = input("> ")
+                stove = input("-~-~-~> ")
 
                 print("1. Cook the body")
                 print("2. Sit on the stove")
@@ -98,7 +98,7 @@ if floor == "1":
                     print("2. No")
                     print("3. I don't care")
 
-                    stupid = input("> ")
+                    stupid = input("-~-~-~> ")
 
                     if stupid = "1":
                         print("My apologies. I didn't know you had a condition.")
@@ -119,7 +119,7 @@ if floor == "1":
             print("1. Yes")
             print("2. No.")
 
-            Continue = "> "
+            Continue = "-~-~-~> "
 
             if Continue = "1":
                 print("PLACEHOLDER")
@@ -128,8 +128,8 @@ if floor == "1":
             else:
                 print("I'm fed up with your unwillingness to abide by my rules. Die scum.")
 
-                why = input("> ")
-                
+                why = input("-~-~-~> ")
+
                 print("You are killed by the game itself. That was stupid.")
 elif floor == "2":
     print("PLACEHOLDER")
