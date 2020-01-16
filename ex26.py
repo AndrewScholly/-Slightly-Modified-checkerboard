@@ -15,11 +15,11 @@ if floor == "1":
 
     cake = input("-~-~-~> ")
 
-    if cake = "2":
+    if cake == "2":
         print("The cake flops on you and you die from insanity. Good Job!")
-    elif cake = "1":
+    elif cake == "1":
         print("You become a normal american.")
-         print("Gain key item, steak")
+        print("Gain key item, steak")
         print("You continue on, through winding passages and slowly become hungry")
         print("1. Eat the steak")
         print("2. Keep going")
@@ -28,12 +28,12 @@ if floor == "1":
 
         steak = 1
 
-        if steak = 0:
+        if steak == 0:
             print("""Somehow you broke the game. Good job, you're now being digested
              in the bowels of the zachulu. Please report this bug and we will get
              todd howard to spend a few years hyping it's sixteen times fix.""")
 
-        elif steak = 1 and eat = "1":
+        elif steak == 1 and eat == "1":
             print("You feel reinvigorted and keep going")
             print("You see a small cave up ahead, with staglites and stlagmites conviently forming a mouth")
             print("1. Go into the cave")
@@ -41,24 +41,24 @@ if floor == "1":
 
             cave = input("-~-~-~> ")
 
-            if cave = "1":
+            if cave == "1":
                 print("You poke yourself on one of the 'teeth' and begin bleeding out.")
                 print("PLACEHOLDER")
-            elif cave = "2":
+            elif cave == "2":
                 print("You keep going further only to see the cave again! You've been walking in circles!")
                 print("1. Scream in anger")
                 print("2. Look for another exit")
 
-                circles = "-~-~-~> "
+                circles = input("-~-~-~> ")
 
-                if circles = "1":
+                if circles == "1":
                     print("""Your scream awakens an army of human vampire bat things
                     that fly out of the cave and eat you alive. Did you know bats use sound to
                     figure out which way to go? It's called ecolocation. Good job! You finally learned
                     something instead of just playing games!""")
-                elif circles = "2":
+                elif circles == "2":
                     print("PLACEHOLDER")
-        elif steak = 1 and eat = "2":
+        elif steak == 1 and eat == "2":
             print("You suffer from starvation and die. Good job!")
     else:
         print(f"Well, {cake} was perhaps better.")
@@ -70,7 +70,7 @@ if floor == "1":
 
         food = input("-~-~-~-~> ")
 
-        if food = "1":
+        if food == "1":
             print("You find a dead body.")
             deadbody = 1
             print("1. Eat the flesh of the forgone")
@@ -78,9 +78,9 @@ if floor == "1":
 
             eat = input("-~-~-~> ")
 
-            if eat = "1":
+            if eat == "1":
                 print("You get E-coli from the body and die slowly. You probally should have cooked it first.")
-            elif eat = "2":
+            elif eat == "2":
                 print("You find a stove, an electric one that works.")
 
                 stove = input("-~-~-~> ")
@@ -88,11 +88,11 @@ if floor == "1":
                 print("1. Cook the body")
                 print("2. Sit on the stove")
                 print("3. Go in the oven")
-                if stove = "1":
+                if stove == "1":
                     print("You turn the stove on and cooked the body")
                     print("Good job, you canibal, going for a genocide run?")
                     print("PLACEHOLDER")
-                elif stove = "2":
+                elif stove == "2":
                     print("You sit on the stove for some reason. Are you stupid?")
                     print("1. Yes")
                     print("2. No")
@@ -100,19 +100,19 @@ if floor == "1":
 
                     stupid = input("-~-~-~> ")
 
-                    if stupid = "1":
+                    if stupid == "1":
                         print("My apologies. I didn't know you had a condition.")
                         print("""You are saved by a heavenly angel and brought to the city,
                         where you are helped and end up living a long and prosperous life.""")
-                    elif stupid = "2":
+                    elif stupid == "2":
                         print("""You accidently turn the stove on and don't get off,
                         burning yourself. I would feel sorry for you if you didn't pretend
                         to be smart.""")
-                    elif stupid = "3":
+                    elif stupid == "3":
                         print("At least the dead feed the ecosystem. Be cursed forevermore!")
                         print("""You are turned into a living statue, unable to move or be destroyed,
                         forever trapped as a unmoving stone, as you were in life.""")
-        elif food = "2":
+        elif food == "2":
             print("You meet with a terrible fate and die. Good job!")
         else:
             print("You go somewhere and do something. Continue?")
@@ -121,9 +121,9 @@ if floor == "1":
 
             Continue = "-~-~-~> "
 
-            if Continue = "1":
+            if Continue == "1":
                 print("PLACEHOLDER")
-            elif Continue = "2":
+            elif Continue == "2":
                 print("PLACEHOLDER")
             else:
                 print("I'm fed up with your unwillingness to abide by my rules. Die scum.")
