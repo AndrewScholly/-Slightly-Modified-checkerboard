@@ -43,7 +43,18 @@ if floor == "1":
 
             if cave == "1":
                 print("You poke yourself on one of the 'teeth' and begin bleeding out.")
-                print("PLACEHOLDER")
+                print("1. Sit there and die")
+                print("2. Look around")
+
+                bleeding = input("-~-~-~>")
+
+                if bleeding == "1":
+                    print("You bleed out and die. Someone thought they were wolverine!")
+
+                elif bleeding == "2":
+                    print("You look around quickly and manage to find a band aid exactly your size! What luck!")
+                    print("Your bleeding is stopped, and you see deeper into the cave is a...washing machine?")
+                    print("PLACEHOLDER")
             elif cave == "2":
                 print("You keep going further only to see the cave again! You've been walking in circles!")
                 print("1. Scream in anger")
@@ -112,6 +123,9 @@ if floor == "1":
                         print("At least the dead feed the ecosystem. Be cursed forevermore!")
                         print("""You are turned into a living statue, unable to move or be destroyed,
                         forever trapped as a unmoving stone, as you were in life.""")
+                elif stove == "3":
+                    print("""Someone closes the oven behind you and you get cooked alive.
+                    Seems someone else wanted a body to cook.""")
         elif food == "2":
             print("You meet with a terrible fate and die. Good job!")
         else:
